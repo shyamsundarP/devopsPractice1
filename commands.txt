@@ -1,0 +1,4 @@
+git clone from GitHub repo
+==========================
+
+git clone 'httpsURL'
