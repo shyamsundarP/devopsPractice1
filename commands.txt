@@ -2,6 +2,7 @@ git clone from GitHub repo
 ==========================
 git clone 'httpsURL'
 
+<<<<<<< HEAD
 to check the branch name
 =======================
  git branch
@@ -30,3 +31,6 @@ ssh-add /root/.ssh/id_ed25519
 
 Then copy the public key to GitHub account
 cat /root/.ssh/id_ed25519.pub
+=======
+git clone 'httpsURL'
+>>>>>>> ddbdf68fa4ba3c002aeeeb77a22191cf669b601f
