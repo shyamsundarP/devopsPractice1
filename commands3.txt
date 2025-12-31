@@ -6,6 +6,6 @@ to create new branch
 ===================
 git branch branchName
 
-to switch to new branch
+to switch to branch
 ======================
 git checkout branchName
