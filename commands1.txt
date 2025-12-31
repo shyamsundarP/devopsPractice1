@@ -1,0 +1,39 @@
+git config --global user.name
+git config --global user.email
+
+to create repositories
+=====================
+git init .
+
+git operations
+==============
+working directory > staging area (add) > local repository (commit) > distributed repo (push)
+git add .
+git commit -m "commitMessage"
+git status
+git log
+
+to find the differences 
+======================
+to compare the files between working directory and staging area
+=================================================================
+git diff 
+
+to compare the files between staging area and local repository
+=================================================================
+git diff --staged
+
+to compare against the local repository
+======================================
+git diff HEAD
+git diff --staged HEAD
+
+to compare between two commits
+==============================
+
+git diff commitID1 commitID2
+git diff HEAD HEAD~1
+
+to get info on specific commit
+==============================
+git show commitID
