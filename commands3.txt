@@ -1,0 +1,11 @@
+to show branches
+===============
+git branch
+
+to create new branch
+===================
+git branch branchName
+
+to switch to new branch
+======================
+git checkout branchName
